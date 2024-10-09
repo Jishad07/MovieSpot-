@@ -41,7 +41,7 @@ class VideoListItem extends StatelessWidget {
                 radius: 25 ,
                 backgroundImage: NetworkImage(imageurl),
                ),
-               kheight,
+               kheight20,
                  const VideoactionsWidgets(icon:Icons.emoji_emotions, tittle:"LOL") ,
                const   VideoactionsWidgets(icon: Icons.add, tittle:"MyList") ,  
               const   VideoactionsWidgets(icon: Icons.share, tittle: "Share ") ,  

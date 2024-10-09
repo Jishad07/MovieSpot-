@@ -18,7 +18,7 @@ class Searchidlewidget extends StatelessWidget {
     return  Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-         kheight,
+         kheight10,
           //  const Text("Top Searches",style: TextStyle(
           //     color: Colors.white,
           //     fontWeight: FontWeight.bold,
@@ -26,12 +26,12 @@ class Searchidlewidget extends StatelessWidget {
           //   ),
           //   ),
          Searchtittletext(tittle: "Top Searches"),
-            kheight,
+            kheight10,
          Expanded(
            child: ListView.separated(
             shrinkWrap: true,
             itemBuilder: (context, index) =>const Topsearchitemtile() , 
-            separatorBuilder:(context, index) => kheight , 
+            separatorBuilder:(context, index) => kheight10 , 
             itemCount:10 ),
          )
           

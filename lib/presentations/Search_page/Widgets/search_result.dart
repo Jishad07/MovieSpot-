@@ -13,9 +13,9 @@ class Searchresultwidget extends StatelessWidget {
     return  Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-           kheight,
+           kheight10,
            Searchtittletext(tittle: "Movies & Tv ",),
-           kheight,
+           kheight10,
            Expanded(
             child: GridView.count(
               crossAxisSpacing: 10 ,

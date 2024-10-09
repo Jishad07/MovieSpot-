@@ -52,7 +52,7 @@ class Section2 extends StatelessWidget {
               fontSize: 20,
               fontWeight: FontWeight.bold),
         ),
-        kheight,
+        kheight10,
         const Text(
           textAlign: TextAlign.center,
           "We will dounload a personalized selection of movies and shows for you, so there is always something to watch on your\n  device ",

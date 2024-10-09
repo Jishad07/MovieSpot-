@@ -13,7 +13,7 @@ class Appbarwidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        kwidth,
+        kwidth10,
          Text(
            title,
            
@@ -30,14 +30,16 @@ class Appbarwidget extends StatelessWidget {
           Icons.cast,
           color: Colors.white,
         ),
-        kwidth,
+        kwidth10,
         Container(
           width: 20,
           height: 20,
           color: Colors.white,
         ),
-        kwidth,
+        kwidth10,
       ],
     );
   }
 }
+
+

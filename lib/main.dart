@@ -8,15 +8,18 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
+ 
   
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
+      
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
     scaffoldBackgroundColor:backgroundColor,
+    appBarTheme:const AppBarTheme(color: Colors.transparent),
     // textTheme:TextTheme(bodyText1: TextStyle(color: Colors.black)),
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple),
